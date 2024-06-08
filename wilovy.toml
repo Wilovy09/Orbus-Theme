@@ -58,6 +58,10 @@
 "diagnostic.warning" = { underline = { color = "green", style="curl"} }#e6ff00
 "diagnostic.error" = { bg = "mySelection", fg = "myRed", modifiers = ["crossed_out", "bold"] }
 
+# GIT ----------------------------------------------------------------------
+"diff.plus" = { fg = "myGreen" } 
+"diff.minus" = { fg = "myRed" }
+"diff.delta" = { fg = "myYellow" }
 
 # Colors -----------------------------------------------------------------------
 

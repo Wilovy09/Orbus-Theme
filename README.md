@@ -8,3 +8,17 @@ This theme is being created as the official repository has not yet uploaded a th
 - Improvements are accepted
 
 This theme contains only the basics for a colorful syntax.
+
+## Images
+
+### TSX
+
+![TSX](./images/tsx.png)
+
+### Go
+
+![Go](./images/go.png)
+
+### Vue
+
+![Vue](./images/vue.png)
