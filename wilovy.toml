@@ -55,7 +55,7 @@
 "hint" = { fg = "myBlue", modifiers = ["bold"] }
 "diagnostic.hint" = { underline = { color = "myBlue", style="curl"} }
 "diagnostic.info" = { underline = { color = "myBlue", style="curl"} }
-"diagnostic.warning" = { underline = { color = "green", style="curl"} }#e6ff00
+"diagnostic.warning" = { underline = { color = "myGreen", style="curl"} }
 "diagnostic.error" = { bg = "mySelection", fg = "myRed", modifiers = ["crossed_out", "bold"] }
 
 # GIT ----------------------------------------------------------------------
