@@ -48,6 +48,9 @@
 # Idents guides
 "ui.virtual.indent-guide" = { fg = "myComment" }
 
+# Color links
+"markup.link.url" = "myBlue"
+
 # ERRORS AND WARNINGS ---------------------------------------------------------
 "warning" = {fg = "myWhite", modifiers = ["underlined"]}
 "error" = { bg = "myRed" , fg = "myWhite" }
