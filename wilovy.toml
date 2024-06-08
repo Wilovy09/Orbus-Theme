@@ -1,0 +1,77 @@
+# Wilovy09
+# 
+# Documentation of theme creation https://docs.helix-editor.com/themes.html
+
+# Syntax highlighting ----------------------------------------------------------
+"type" = "myPurple"
+"type.builtin" = "myPurple"
+"constant" = "myBlue"
+"constructor" = "myGreen"
+"string" = "myGold"
+"string.special" = "myGold"
+"string.regexp" = "myPink"
+"comment" = { fg = "myComment", modifiers = ["bold" ,"italic"] }
+"variable" = "myWhite"
+"variable.parameter" = "myOrange"
+"punctuation" = "myWhite"
+"punctuation.bracket" = "myYellow"
+"punctuation.delimiter" = "myWhite"
+"punctuation.special" = "myPink"
+"keyword" = { fg = "myPink", modifiers = ["bold", "italic"] }
+"operator" = "myPink"
+"function" = {fg = "myGreen", modifiers = ["bold"]}
+"tag" = "myPink"
+"attribute" = "myGreen"
+
+# UI --------------------------------------------------------------------------
+
+# numbers
+"ui.linenr" = { fg = "myComment", modifiers = ["bold", "italic"] }
+"ui.linenr.selected" = "myWhite"
+
+# cursor
+"ui.cursor" = { fg = "myWhite", bg = "myComment" }
+"ui.cursor.match" = { bg = "mySelection", fg = "myWhite" }
+
+# text
+"ui.text" = "myWhite"
+
+# Code/Text selection
+"ui.selection" = { bg = "mySelection" }
+
+# Statusline
+"ui.statusline" = { bg = "myBg", fg = "myWhite" }
+
+# Menu
+"ui.menu.selected" = { bg = "mySelection", fg = "myWhite" }
+
+# Idents guides
+"ui.virtual.indent-guide" = { fg = "myComment" }
+
+# ERRORS AND WARNINGS ---------------------------------------------------------
+"warning" = {fg = "myWhite", modifiers = ["underlined"]}
+"error" = { bg = "myRed" , fg = "myWhite" }
+"info" = { fg = "myBlue", modifiers = ["bold"] }
+"hint" = { fg = "myBlue", modifiers = ["bold"] }
+"diagnostic.hint" = { underline = { color = "myBlue", style="curl"} }
+"diagnostic.info" = { underline = { color = "myBlue", style="curl"} }
+"diagnostic.warning" = { underline = { color = "green", style="curl"} }#e6ff00
+"diagnostic.error" = { bg = "mySelection", fg = "myRed", modifiers = ["crossed_out", "bold"] }
+
+
+# Colors -----------------------------------------------------------------------
+
+[palette]
+myBg = "#191622"
+myBgDark = "#111018"
+myPink = "#FF79C6"
+myGreen = "#67E480"
+myYellow = "#E7DE79"
+myGold = "#ffed54"
+myWhite = "#FFFFFF"
+myBlue = "#78D1E1"
+myPurple = "#988BC7"
+myComment = "#483C67"
+myOrange = "#E89E64"
+mySelection = "#41414D"
+myRed = "#FF5555"
