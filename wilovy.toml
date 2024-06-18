@@ -2,7 +2,6 @@
 # https://github.com/Wilovy09
 # Documentation of theme creation https://docs.helix-editor.com/themes.html
 
-# Syntax highlighting ----------------------------------------------------------
 "type" = "myPurple"
 "type.builtin" = "myPurple"
 "constant" = "myBlue"
@@ -23,35 +22,32 @@
 "tag" = "myPink"
 "attribute" = "myGreen"
 
-# UI --------------------------------------------------------------------------
-
-# numbers
 "ui.linenr" = { fg = "myComment", modifiers = ["bold", "italic"] }
 "ui.linenr.selected" = "myWhite"
 
-# cursor
 "ui.cursor" = { fg = "myWhite", bg = "myComment" }
 "ui.cursor.match" = { bg = "mySelection", fg = "myWhite" }
 
-# text
 "ui.text" = "myWhite"
+"ui.text.focus" = "myPurple"
 
-# Code/Text selection
 "ui.selection" = { bg = "mySelection" }
 
-# Statusline
-"ui.statusline" = { bg = "myBg", fg = "myWhite" }
+"ui.statusline" = { bg = "myComment", fg = "myWhite" }
+"ui.statusline.normal" = { bg = "myComment" , fg = "myWhite" }
+"ui.statusline.insert" = { bg = "myPink" , fg = "myWhite" }
+"ui.statusline.select" = { bg = "myPurple", fg = "myWhite" }
 
-# Menu
+"ui.bufferline" = { fg = "myComment" }
+"ui.bufferline.background" = { bg = "myBgDark" }
+"ui.bufferline.active" = { fg = "myWhite" }
+
 "ui.menu.selected" = { bg = "mySelection", fg = "myWhite" }
 
-# Idents guides
 "ui.virtual.indent-guide" = { fg = "myComment" }
 
-# Color links
 "markup.link.url" = "myBlue"
 
-# ERRORS AND WARNINGS ---------------------------------------------------------
 "warning" = {fg = "myWhite", modifiers = ["underlined"]}
 "error" = { bg = "myRed" , fg = "myWhite" }
 "info" = { fg = "myBlue", modifiers = ["bold"] }
@@ -61,16 +57,13 @@
 "diagnostic.warning" = { underline = { color = "myGreen", style="curl"} }
 "diagnostic.error" = { bg = "mySelection", fg = "myRed", modifiers = ["crossed_out", "bold"] }
 
-# GIT ----------------------------------------------------------------------
 "diff.plus" = { fg = "myGreen" } 
 "diff.minus" = { fg = "myRed" }
 "diff.delta" = { fg = "myYellow" }
 
-# Colors -----------------------------------------------------------------------
-
 [palette]
 myBg = "#191622"
-myBgDark = "#111018"
+myBgDark = "#17141F"
 myPink = "#FF79C6"
 myGreen = "#67E480"
 myYellow = "#E7DE79"
